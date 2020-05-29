@@ -1,0 +1,15 @@
+{
+  "name": "defiapi",
+  "version": "1.0.0",
+  "description": "Build an API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Phillips",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^8.0.8",
+    "koa": "^2.12.0"
+  }
+}
