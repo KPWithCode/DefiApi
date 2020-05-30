@@ -4,12 +4,14 @@
   "description": "Build an API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Kyle Phillips",
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^8.0.8",
-    "koa": "^2.12.0"
+    "dotenv": "^8.2.0",
+    "koa": "^2.12.0",
+    "web3": "^1.2.8"
   }
 }
