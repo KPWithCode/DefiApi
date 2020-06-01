@@ -1,5 +1,4 @@
 require('dotenv').config();
-process.env.INFURA_URL
 const Koa = require('koa');
 const app = new Koa();
 const router = require('./router.js')
