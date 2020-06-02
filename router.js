@@ -147,7 +147,7 @@ router.get('/tokenBalance/:cToken/:address', async (ctx) => {
   });
 
 router.get('/', ctx => {
-    ctx.body = 'hello world'
+    ctx.body = 'hello world, feel free to connect a front end on this api if you would like'
 })
 
 
